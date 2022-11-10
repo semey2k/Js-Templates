@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lazy YouTube</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="content">
+		<button class="modal-btn" data-path="first" data-animation="fadeInUp" data-speed="700">Открыть окно 1</button>
+		<button class="modal-btn" data-path="second">Открыть окно 2</button>
+	</div>
+	<div class="modal">
+		<div class="modal__container" data-target="first">
+			<button class="modal-close">Закрыть</button>
+			<div class="modal-content">
+				Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+				<button>Нажми на меня</button>
+				<input type="text" placeholder="Имя">
+			</div>
+		</div>
+		<div class="modal__container" data-target="second">
+			<button class="modal-close">Закрыть</button>
+			<div class="modal-content">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, saepe!
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
